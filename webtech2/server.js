@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 
-const mongoDB = 'mongodb://localhost:27017/webtechbeadando2022';
+const mongoDB = 'mongodb://localhost:27017/webtech2';
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 const db = mongoose.connection;
